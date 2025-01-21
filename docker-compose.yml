@@ -1,0 +1,14 @@
+services:
+  fastapi:
+    image: image-fastapi
+    build: .
+    container_name: flowersAPI
+    ports:
+      - "8000:8280"
+    #volumes:
+      #- ./:/app
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - capabilities: [gpu]
