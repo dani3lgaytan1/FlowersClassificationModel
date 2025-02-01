@@ -92,7 +92,7 @@ services:
 
 ## Notas Adicionales
 - La API está configurada para ejecutarse en el puerto `8280` dentro del contenedor y se expone al puerto `8000` en el host.
-- Este proyecto utiliza un modelo de TensorFlow (`numeros.h5`) y es compatible con dispositivos que tienen GPU para aceleración.
+- Este proyecto utiliza un modelo de TensorFlow (`flowersmodel.h5`) y es compatible con dispositivos que tienen GPU para aceleración.
 
 ## Futuras Mejoras
 - Agregar autenticación para la API.
