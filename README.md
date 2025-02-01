@@ -1,6 +1,6 @@
 # Fast API MNIST en Docker
 
-Este proyecto implementa una API desarrollada con FastAPI para trabajar con el modelo MNIST utilizando contenedores Docker.
+Este proyecto implementa una API desarrollada con FastAPI para trabajar con reconocimiento de flores utilizando flowers-recognition y un modelo CNN utilizando contenedores Docker.
 
 ## Comandos Principales
 
